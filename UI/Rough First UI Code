@@ -1,0 +1,84 @@
+
+tft.setTextColor(0x0);
+tft.setTextSize(6);
+tft.setTextWrap(false);
+tft.setCursor(397, 10);
+tft.print("12:12:12 PM");
+
+tft.setTextSize(4);
+tft.setCursor(433, 68);
+tft.print("Friday 13, 2026");
+
+tft.fillRect(-354, 323, 1155, 157, 0x0);
+
+tft.setTextColor(0xFFFF);
+tft.setTextSize(3);
+tft.setCursor(13, 341);
+tft.print("Current Task:");
+
+tft.setCursor(15, 391);
+tft.print("Days Elapsed:");
+
+tft.setCursor(15, 443);
+tft.print("Days Remaining:");
+
+tft.setTextColor(0xFF47);
+tft.setCursor(254, 341);
+tft.print("Get Model Running");
+
+tft.setCursor(261, 391);
+tft.print("20");
+
+tft.setCursor(288, 445);
+tft.print("3");
+
+tft.setTextColor(0x0);
+tft.setTextSize(4);
+tft.setCursor(407, 174);
+tft.print("Temperatures: ");
+
+tft.setTextColor(0xF206);
+tft.setTextSize(3);
+tft.setCursor(544, 227);
+tft.print("Outside: 99 F");
+
+tft.setCursor(547, 268);
+tft.print("Inside: 99 F");
+
+tft.setTextColor(0x0);
+tft.setCursor(12, 230);
+tft.print("Home Assistant:");
+
+tft.setTextColor(0xFF47);
+tft.setCursor(36, 272);
+tft.print("50 W");
+
+tft.drawBitmap(143, 263, image_choice_bullet_off_bits, 46, 48, 0xFF47);
+
+tft.drawBitmap(222, 264, image_choice_bullet_on_bits, 45, 48, 0xFF47);
+
+tft.drawRect(2, 3, 396, 222, 0x0);
+
+tft.setTextColor(0x0);
+tft.setTextSize(4);
+tft.setCursor(8, 6);
+tft.print("ISS Tracker");
+
+tft.drawBitmap(10, 95, image_location_map_bits, 68, 72, 0xFFFF);
+
+tft.setTextSize(3);
+tft.setCursor(268, 45);
+tft.print("Over:");
+
+tft.setCursor(158, 78);
+tft.print("Chicago, USA");
+
+tft.setCursor(89, 121);
+tft.print(" 41.88 N, 87.63 W");
+
+tft.setCursor(266, 153);
+tft.print("421 km");
+
+tft.setCursor(174, 186);
+tft.print("27,600 km/h");
+
