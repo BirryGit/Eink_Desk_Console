@@ -9,3 +9,6 @@ This is a project I am building to track my projects and show data from homeassi
 5. Screw bolts to keep the printed pieces together
 6. Put the case into the base, and screw it in.
 ### Assembly Animation
+
+https://github.com/user-attachments/assets/f419b6c7-1fa8-42ba-b154-1aed95d2b339
+
