@@ -1,0 +1,87 @@
+
+// [BEGIN lopaka generated]
+tft.fillScreen(0xFFFF);
+
+tft.setTextColor(0x0);
+tft.setTextSize(2);
+tft.setTextWrap(false);
+tft.setFont(&FreeSansBold18pt7b);
+tft.setCursor(487, 64);
+tft.print("12:12 PM");
+
+tft.setTextSize(1);
+tft.setCursor(526, 110);
+tft.print("Friday 13, 2026");
+
+tft.fillRect(0, 328, 803, 152, 0x0);
+
+tft.setTextColor(0xFFFF);
+tft.setCursor(12, 370);
+tft.print("Current Task:");
+
+tft.setCursor(12, 415);
+tft.print("Days Elapsed:");
+
+tft.setCursor(12, 462);
+tft.print("Days Remaining:");
+
+tft.setCursor(256, 370);
+tft.print("Get Model Running");
+
+tft.setCursor(268, 415);
+tft.print("20");
+
+tft.setCursor(311, 462);
+tft.print("3");
+
+tft.setTextColor(0x0);
+tft.setCursor(626, 249);
+tft.print("Weather:");
+
+tft.setCursor(444, 292);
+tft.print("Slightly Cloudy 99 F");
+
+tft.setCursor(12, 248);
+tft.print("Home Assistant:");
+
+tft.setCursor(139, 284);
+tft.print("50 W");
+
+tft.drawRect(0, 3, 410, 207, 0x0);
+
+tft.setTextSize(2);
+tft.setCursor(4, 57);
+tft.print("ISS Tracker");
+
+tft.setTextSize(1);
+tft.setCursor(10, 92);
+tft.print("Over:");
+
+tft.setCursor(164, 127);
+tft.print("Chicago, USA");
+
+tft.setCursor(116, 318);
+tft.print("50 W");
+
+tft.setCursor(116, 162);
+tft.print(" 41.88 N, 87.63 W");
+
+tft.setCursor(14, 284);
+tft.print("Printer");
+
+tft.setCursor(266, 197);
+tft.print("421 km");
+
+tft.setCursor(14, 318);
+tft.print("Strip");
+
+tft.setCursor(20, 197);
+tft.print("27,600 km/h");
+
+tft.setTextColor(0xFFFF);
+tft.setCursor(463, 461);
+tft.print("Status:");
+
+tft.setCursor(588, 462);
+tft.print("In Progress");
+// [END lopaka generated]
