@@ -2,7 +2,7 @@
 <img width="2160" height="1215" alt="Screen_Holder_Thing_2026-Apr-03_04-33-51AM-000_CustomizedView44042802966_png" src="https://github.com/user-attachments/assets/bde9aa72-69e0-434e-8d6b-256bc0ccb082" />
 
 # Eink_Desk_Console
-This is a project I am building to track my projects and show data from Home Assistant and other APIs. I don't really recommend anyone build this, because it is incredibly hyperspecific to my use case. Please use it for help and inspiration.
+This is a project I am building to track my projects and show data from Home Assistant and other APIs. I wanted a small thing on my desk that I could glance at and see everything I could possibly want. I also wanted something to keep me on track with time sensitive projects. (So I therefore procrastinated with a project to reduce procrastination.) I don't really recommend anyone build this, because it is incredibly hyperspecific to my use case. Please use it for help and inspiration.
 
 ## APIs Needed
 1. Open Weather
